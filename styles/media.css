@@ -1,0 +1,77 @@
+@media screen and (max-width: 1430px) {
+  .work__wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cardone {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cardtwo {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cardthree {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cardfour {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card__img img{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1300px) {
+    .header__nav{
+        flex-direction: column;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:1124px) {
+    .news__wrap{
+        flex-direction: column;
+    }
+    .news__desc{
+        text-align: center;
+    }
+}
+@media screen and (max-width:1000px) {
+  .footer__nav{
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer__nav-list{
+    flex-direction: column;
+  }
+
+  .news__img img{
+    width: 100%;
+  }
+}
+@media screen and (max-width:700px) {
+ .header__nav-list{
+ flex-wrap: wrap;
+ justify-content: center;
+  gap: 10px;
+ }
+}
+
+
